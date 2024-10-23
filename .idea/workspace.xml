@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d7ef51-ffb8-4ce3-b77c-6536246a60a8" name="Changes" comment="Реализованы добавление и удаление элементов из контейнера, вывод и get">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ContainerTest.java" afterDir="false" />
+    <list default="true" id="a1d7ef51-ffb8-4ce3-b77c-6536246a60a8" name="Changes" comment="Первый тест">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.ContainerTest.executor": "Run",
+    "JUnit.ContainerTest.get_method_returns_null_if_value_is_not_found.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -47,7 +50,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ContainerTest.remove_method_returns_false_if_not_delete_value">
     <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Laba1" />
       <extension name="coverage">
@@ -63,8 +66,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContainerTest.get_method_returns_null_if_value_is_not_found" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Laba1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ContainerTest" />
+      <option name="METHOD_NAME" value="get_method_returns_null_if_value_is_not_found" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.remove_method_returns_false_if_not_delete_value" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Laba1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ContainerTest" />
+      <option name="METHOD_NAME" value="remove_method_returns_false_if_not_delete_value" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContainerTest.remove_method_returns_false_if_not_delete_value" />
+        <item itemvalue="JUnit.ContainerTest.get_method_returns_null_if_value_is_not_found" />
         <item itemvalue="JUnit.ContainerTest" />
       </list>
     </recent_temporary>
@@ -110,13 +147,37 @@
       <option name="project" value="LOCAL" />
       <updated>1729712772435</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Первый тест">
+      <option name="closed" value="true" />
+      <created>1729721488729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729721488729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#9;new file:   .gitignore&#10;&#9;new file:   .idea/encodings.xml&#10;&#9;new file:   .idea/misc.xml&#10;&#9;new file:   .idea/vcs.xml&#10;&#9;new file:   .idea/workspace.xml&#10;&#9;new file:   pom.xml&#10;&#9;new file:   src/main/java/org/example/App.java&#10;&#9;new file:   src/test/java/org/example/AppTest.java" />
     <MESSAGE value="Реализованы конструкторы(пустой и с параметром), проверка на пустоту и метод увеличивающий ёмкость массива вдвое" />
     <MESSAGE value="Реализованы добавление и удаление элементов из контейнера, вывод и get" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализованы добавление и удаление элементов из контейнера, вывод и get" />
+    <MESSAGE value="Первый тест" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первый тест" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/ContainerTest.java</url>
+          <line>32</line>
+          <properties class="org.example.ContainerTest" method="remove_method_returns_false_if_not_delete_value">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
